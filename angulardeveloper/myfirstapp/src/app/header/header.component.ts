@@ -10,6 +10,9 @@ export class HeaderComponent implements OnInit {
   
   ngOnInit(): void {
   }
-  @Input() receivedname="";
+  count=0;
+  counter(){
+    this.count++;
+  }
   
 }
