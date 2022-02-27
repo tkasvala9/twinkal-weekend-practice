@@ -1,0 +1,56 @@
+input{
+    text-align: center;
+    font-size: x-large;
+    padding: 5px;  
+}
+form{
+    margin: 40px 300px;
+    text-align: center;
+    font-size: x-large;
+    background-color: teal;
+    padding: 20px;
+}
+
+button{
+    font-size: x-large;
+    padding: 10px 50px;
+    background-color: gray;
+    border-style: none;
+   
+}  
+.shopping{
+    border:  1px solid black;
+    height: 80px;
+    width: 100%;
+    background-color: teal;
+    position: relative;
+}
+#logo2{
+   
+    float: left;
+    height:3em ;
+    /* width: 170px; */
+    margin: 15px 10px;
+    margin-right: 100px;
+}
+#logo{
+    margin: 15px 10px 25px 30px;
+    float: left;
+    height:3em ;
+    width: 3em;
+    
+}
+a{
+    padding: 26px;
+    margin: 0px 5px;
+    float: left;
+    font-size: x-large;
+    color:white;
+    text-decoration: none;
+}
+
+.bodypart{
+    border:  1px solid black;
+    height: 600px;
+    width: 100%;
+}

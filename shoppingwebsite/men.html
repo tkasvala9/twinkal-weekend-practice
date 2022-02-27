@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="navigation.css">
+</head>
+
+<body>
+    <div class="shopping">
+        <img id="logo" src="image/Snapdeal_Logo_new.png">
+        <img id="logo2" src="image/snapdeal.png">
+        
+    
+       <a  href="men.html">men's fashion</a>
+       <a href="women.html">women's fashion</a>
+       <a href="contact.html">contact</a>
+       <a href="about.html">About Us</a>
+       <a href="cart.html">cart</a>
+       
+       
+    </div>
+ 
+    <div class="shop">
+        <div class="shop-header">
+            <h2>All Men's Products</h2><br>
+            <p>
+                Add products to cart
+            </p>
+        </div>
+        <div class="shop-body">
+            <div>
+                <aside class="shop-body-aside">
+                    <section class="aside-section">
+                        <span class="aside-span">Filter By:</span><br><br>
+                        <hr><br><br>
+                        <div>
+                            <span class="aside-span">Collection</span><br><br>
+                            <hr>
+
+                            <ul class="aside-filter">
+                                <li class="list">All</li><br>
+                                <li class="list">Men's footwear</li><br>
+                                <li class="list">Men's clothes</li><br>
+                                <li class="list">Women's footwear</li><br>
+                                <li class="list">Women's clothes</li>
+                            </ul>
+                        </div>
+                    </section>
+                </aside>
+            </div>
+
+            <div class="all-product">
+                <div class="product">
+                    <div class="product_image"><img src="image/men1.jpg" alt="men1"></div>
+                    <div class="product_description"> Pent<br>
+                        <span class="price">Rs. 100/-</span>
+
+                        <div class="product_counter ">
+                            <button class=”btn”
+                                style="cursor: pointer;border-radius: 50%;border-style: none; border-style: none; background-color: #088808;padding: 5px;color: white;font-size: 130%;width: 30px;">-</button>
+                            <span class=”count” style="padding: 0px 38px;font-size: 150%;" >2</span>
+                            <button class=”btn”
+                                style="cursor: pointer;border-radius: 50%;border-style: none;  background-color: rgb(8, 136, 8);padding: 5px;color: white;font-size: 130%;width: 30px;">+</button>
+                        </div>
+                        <button class="product-button"
+                            style="cursor: pointer;border-radius: 3% ;margin-left: 10px; padding: 5px 22px ;font-size: 120%;background-color: rgb(66, 58, 128);color: rgb(255, 255, 255);" onclick="addcart()">Add
+                            to Cart</button>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product_image"><img src="image/men2.jpg" alt="men2"></div>
+                    <div class="product_description"> Shirt<br>
+                        <span class="price">Rs. 80/-</span>
+
+
+                        <div class="product_counter ">
+                            <button class=”btn”
+                                style="cursor: pointer;border-radius: 50%; border-style: none; background-color: #088808;padding: 5px;color: white;font-size: 130%;width: 30px;">-</button>
+                            <span class=”count” style="padding: 0px 38px;font-size: 150%;" >2</span>
+                            <button class=”btn”
+                                style="cursor: pointer;border-radius: 50%; border-style: none; background-color: rgb(8, 136, 8);padding: 5px;color: white;font-size: 130%;width: 30px;">+</button>
+                        </div>
+                        <button class="product-button"
+                            style="cursor: pointer; ;margin-left: 10px; padding: 5px 22px ;font-size: 120%;border-style: none; background-color: rgb(66, 58, 128);color: rgb(255, 255, 255);" onclick="addcart()">Add
+                            to Cart</button>
+
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product_image"><img src="image/men3.jpg" alt="men3"></div>
+                    <div class="product_description"> Pent<br>
+                        <span class="price">Rs. 120/-</span>
+
+                        <div class="product_counter ">
+                            <button class=”btn”
+                                style="cursor: pointer;border-radius: 50%; border-style: none; background-color: #088808;padding: 5px;color: white;font-size: 130%;width: 30px;">-</button>
+                            <span class=”count” style="padding: 0px 38px;font-size: 150%;" >2</span>
+                            <button class=”btn”
+                                style="cursor: pointer;border-radius: 50%; border-style: none; background-color: rgb(8, 136, 8);padding: 5px;color: white;font-size: 130%;width: 30px;">+</button>
+                        </div>
+                        <button class="product-button"
+                            style="cursor: pointer; ;margin-left: 10px; padding: 5px 22px ;font-size: 120%;border-style: none; background-color: rgb(66, 58, 128);color: rgb(255, 255, 255);" onclick="addcart()">Add
+                            to Cart</button>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product_image"><img src="image/men4.jpg" alt="men4"></div>
+                    <div class="product_description"> t-shirt<br>
+                        <span class="price">Rs. 60/-</span>
+
+                        <div class="product_counter ">
+                            <button class=”btn”
+                                style="cursor: pointer;border-radius: 50%; border-style: none; background-color: #088808;padding: 5px;color: white;font-size: 130%;width: 30px;">-</button>
+                            <span class=”count” style="padding: 0px 38px;font-size: 150%;" onclick="addcart()">2</span>
+                            <button class=”btn”
+                                style="cursor: pointer;border-radius: 50%; border-style: none; background-color: rgb(8, 136, 8);padding: 5px;color: white;font-size: 130%;width: 30px;">+</button>
+                        </div>
+                        <button class="product-button"
+                            style="cursor: pointer; ;margin-left: 10px; padding: 5px 22px ;font-size: 120%;border-style: none; background-color: rgb(66, 58, 128);color: rgb(255, 255, 255);" onclick="addcart()">Add
+                            to Cart</button>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product_image"><img src="image/men5.jpg" alt="men5"></div>
+                    <div class="product_description"> Tissue Paper<br>
+                        <span class="price">Rs. 200/-</span>
+
+                        <div class="product_counter ">
+                            <button class=”btn”
+                                style="cursor: pointer;border-radius: 50%; border-style: none; background-color: #088808;padding: 5px;color: white;font-size: 130%;width: 30px;">-</button>
+                            <span class=”count” style="padding: 0px 38px;font-size: 150%;" >2</span>
+                            <button class=”btn”
+                                style="cursor: pointer;border-radius: 50%; border-style: none; background-color: rgb(8, 136, 8);padding: 5px;color: white;font-size: 130%;width: 30px;">+</button>
+                        </div>
+                        <button class="product-button"
+                            style="cursor: pointer; ;margin-left: 10px; padding: 5px 22px ;font-size: 120%;border-style: none; background-color: rgb(66, 58, 128);color: rgb(255, 255, 255);" onclick="addcart()">Add
+                            to Cart</button>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product_image"><img src="image/men6.jpg" alt="men6"></div>
+                    <div class="product_description"> Potato<br>
+                        <span class="price">Rs. 100/-</span>
+
+                        <div class="product_counter ">
+                            <button class=”btn”
+                                style="cursor: pointer;border-radius: 50%; border-style: none; background-color: #088808;padding: 5px;color: white;font-size: 130%;width: 30px;">-</button>
+                            <span class=”count” style="padding: 0px 38px;font-size: 150%;" >2</span>
+                            <button class=”btn”
+                                style="cursor: pointer;border-radius: 50%; border-style: none; background-color: rgb(8, 136, 8);padding: 5px;color: white;font-size: 130%;width: 30px;">+</button>
+                        </div>
+                        <button class="product-button"
+                            style="cursor: pointer; ;margin-left: 10px; padding: 5px 22px ;font-size: 120%;border-style: none; background-color: rgb(66, 58, 128);color: rgb(255, 255, 255);" onclick="addcart()">Add
+                            to Cart</button>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product_image"><img src="image/men7.jpg" alt="men7"></div>
+                    <div class="product_description"> Apple<br>
+                        <span class="price">Rs. 140/-</span>
+
+                        <div class="product_counter ">
+                            <button class=”btn”
+                                style="cursor: pointer;border-radius: 50%; border-style: none; background-color: #088808;padding: 5px;color: white;font-size: 130%;width: 30px;">-</button>
+                            <span class=”count” style="padding: 0px 38px;font-size: 150%;" >2</span>
+                            <button class=”btn”
+                                style="cursor: pointer;border-radius: 50%; border-style: none; background-color: rgb(8, 136, 8);padding: 5px;color: white;font-size: 130%;width: 30px;">+</button>
+                        </div>
+                        <button class="product-button"
+                            style="cursor: pointer; ;margin-left: 10px; padding: 5px 22px ;font-size: 120%;border-style: none; background-color: rgb(66, 58, 128);color: rgb(255, 255, 255);" onclick="addcart()">Add
+                            to Cart</button>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product_image"><img src="image/men8.jpg" alt="men8"></div>
+                    <div class="product_description"> cookie<br>
+                        <span class="price">Rs. 140/-</span>
+
+                        <div class="product_counter ">
+                            <button class=”btn”
+                                style="cursor: pointer;border-radius: 50%; border-style: none; background-color: #088808;padding: 5px;color: white;font-size: 130%;width: 30px;">-</button>
+                            <span class=”count” style="padding: 0px 38px;font-size: 150%;" >2</span>
+                            <button class=”btn”
+                                style="cursor: pointer;border-radius: 50%; border-style: none; background-color: rgb(8, 136, 8);padding: 5px;color: white;font-size: 130%;width: 30px;">+</button>
+                        </div>
+                        <button class="product-button"
+                            style="cursor: pointer; ;margin-left: 10px; padding: 5px 22px ;font-size: 120%;border-style: none; background-color: rgb(66, 58, 128);color: rgb(255, 255, 255);" onclick="addcart()">Add
+                            to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="product_image"><img src="image/men9.jpg" alt="men9"></div>
+                    <div class="product_description"> Tomato<br>
+                        <span class="price">Rs. 40/-</span>
+                        <div class="product_counter ">
+                            <button class=”btn”
+                                style="cursor: pointer;border-radius: 50%; border-style: none; background-color: #088808;padding: 5px;color: white;font-size: 130%;width: 30px;">-</button>
+                            <span class=”count” style="padding: 0px 38px;font-size: 150%;" >2</span>
+                            <button class=”btn”
+                                style="cursor: pointer;border-radius: 50%; border-style: none; background-color: rgb(8, 136, 8);padding: 5px;color: white;font-size: 130%;width: 30px;">+</button>
+                        </div>
+                        <button class="product-button"
+                            style="cursor: pointer; ;margin-left: 10px; padding: 5px 22px ;font-size: 120%;border-style: none; background-color: rgb(66, 58, 128);color: rgb(255, 255, 255);" onclick="addcart()">Add
+                            to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     
+</body>
+<script src="cart.js"></script>
+
+</html>

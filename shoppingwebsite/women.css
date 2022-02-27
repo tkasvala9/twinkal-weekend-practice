@@ -1,0 +1,33 @@
+img{
+    border: 1p solid black;
+    height: 570px;
+    width: 400px;
+}
+body{
+    background-color: teal;
+}
+.shopping{
+
+    height: 150px;
+    width: 100%;
+    background-color: teal;
+}
+#logo2{
+
+    height:90px ;
+    width: 170px;
+    margin-left: 10px;
+}
+#logo{
+    margin-top: 25px;
+    height:100px ;
+    width: 100px;
+    
+}
+a{
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size: x-large;
+    color:white;
+    
+}

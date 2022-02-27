@@ -10,8 +10,20 @@ export class HeaderComponent implements OnInit {
   
   ngOnInit(): void {
   }
+  ItemsInCarts=[{
+    
+      "id":"",
+      "productname":"",
+      "price":"",
+      "quntityavailable":"",
+      "location":"",
+      "presentstock":"",
+      "url":""
+    
+  }]
   count=0;
-  counter(){
+  cartcounter(product:any){
+    this.ItemsInCarts.push(product);
     this.count++;
   }
   

@@ -1,0 +1,144 @@
+
+    @import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap");
+    @import url("https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Josefin+Sans:300,400,600,700|Nunito:300,400,600,700");
+   
+.shopping{
+    border:  1px solid black;
+    height: 80px;
+    width: 100%;
+    background-color: teal;
+    position: relative;
+}
+#logo2{
+   
+    float: left;
+    height:3em ;
+    /* width: 170px; */
+    margin: 15px 10px;
+    margin-right: 100px;
+}
+#logo{
+    margin: 15px 10px 25px 30px;
+    float: left;
+    height:3em ;
+    width: 3em;
+    
+}
+a{
+    padding: 26px;
+    margin: 0px 5px;
+    float: left;
+    font-size: x-large;
+    color:white;
+    text-decoration: none;
+}
+
+.bodypart{
+    border:  1px solid black;
+    height: 600px;
+    width: 100%;
+}
+.footer{
+    border:  1px solid black;
+    height: 100px;
+    width: 100%;
+    background-color: teal;
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+
+
+
+    .shop {
+      background-color: palevioletred;
+    }
+    .shop .shop-header {
+      text-align: center;
+      margin: 20px;
+      padding: 15px;
+      font-size: 150%;
+      color: #1a1a1a;
+    }
+    
+    .shop-body {
+      display: flex;
+      margin: 20px 80px;
+      background-color: #fafafa;
+      justify-content: left;
+    }
+    .shop-body .shop-body-aside {
+      border-right: 1px solid #1a1a1a;
+      width: 250px;
+      padding: 20px;
+      text-indent: 5px;
+      font-size: 130%;
+      color: #1a1a1a;
+    }
+    .shop-body .shop-body-aside .aside-filter {
+      list-style-type: none;
+      padding: 20px 0px 0px 10px;
+      font-size: 100%;
+      cursor: pointer;
+    }
+    .shop-body .shop-body-aside .list:hover {
+      font-size: 120%;
+      font-weight: bold;
+    }
+    .shop-body .all-product {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .shop-body .all-product .product {
+      border-radius: 10%;
+      padding: 30px;
+      margin: 20px 20px;
+      width: 250px;
+      text-align: center;
+      text-indent: 10px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .shop-body .all-product .product .product_image img{
+      padding: 10px;
+      height: 200px;
+      width: 200px;
+      
+    }
+    .shop-body .all-product .product .price {
+      margin-left: 10px;
+      font-weight: bold;
+    }
+    
+    .aside-span {
+      font-size: 120%;
+      font-family: "Optimistic Display", system-ui, -apple-system, sans-serif;
+    }
+    
+    .product_description {
+      padding: 20px 0px;
+      line-height: 200%;
+      font-size: 130%;
+    }
+    
+    .product_counter {
+      margin: 10px 0px;
+    }
+    
+    /*# sourceMappingURL=product.css.map */
+    
+    .footerhelp{
+        float: left;
+        margin-left: 500px;
+        margin-top: 10px;
+    }
+    ul{
+        float:left;
+        margin-left: 40px;
+        font-size: larger;
+        font-family: sans-serif;
+    }
+    
+.product{
+    background-color:antiquewhite;
+}
